@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-24T12:09:41.769Z" agent="5.0 (Windows)" etag="egDJxyTjpvt5txApXk2M" version="20.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-24T12:15:00.060Z" agent="5.0 (Windows)" etag="YOhWH15KJ0ubXjiVynm-" version="20.0.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1024" dy="720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -49,7 +49,7 @@
         <mxCell id="zB7IybjigIYkWdZnADIa-10" value="+ puzzle() -&gt; bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zB7IybjigIYkWdZnADIa-0">
           <mxGeometry y="320" width="310" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="zB7IybjigIYkWdZnADIa-11" value="+ balance()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zB7IybjigIYkWdZnADIa-0">
+        <mxCell id="zB7IybjigIYkWdZnADIa-11" value="+ balance() -&gt; bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zB7IybjigIYkWdZnADIa-0">
           <mxGeometry y="346" width="310" height="26" as="geometry" />
         </mxCell>
         <mxCell id="zB7IybjigIYkWdZnADIa-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=diamondThin;endFill=0;strokeWidth=1;endSize=20;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zB7IybjigIYkWdZnADIa-13" target="zB7IybjigIYkWdZnADIa-0">
@@ -95,7 +95,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zB7IybjigIYkWdZnADIa-25" value="HeroGuild" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="295" y="609" width="160" height="138" as="geometry" />
+          <mxGeometry x="295" y="630" width="160" height="138" as="geometry" />
         </mxCell>
         <mxCell id="zB7IybjigIYkWdZnADIa-26" value="- name: str&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zB7IybjigIYkWdZnADIa-25">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
