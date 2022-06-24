@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-24T11:30:11.806Z" agent="5.0 (Windows)" etag="VVT0YFFafL5SLnUl33vp" version="20.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-24T11:49:32.968Z" agent="5.0 (Windows)" etag="1YuY_0b5gjM9RB6bf-MB" version="20.0.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1024" dy="720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -40,7 +40,7 @@
         <mxCell id="zB7IybjigIYkWdZnADIa-9" value="+ pickpocket()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zB7IybjigIYkWdZnADIa-0">
           <mxGeometry y="242" width="310" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="zB7IybjigIYkWdZnADIa-10" value="+ puzzel()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zB7IybjigIYkWdZnADIa-0">
+        <mxCell id="zB7IybjigIYkWdZnADIa-10" value="+ puzzle()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zB7IybjigIYkWdZnADIa-0">
           <mxGeometry y="268" width="310" height="26" as="geometry" />
         </mxCell>
         <mxCell id="zB7IybjigIYkWdZnADIa-11" value="+ balance()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zB7IybjigIYkWdZnADIa-0">
