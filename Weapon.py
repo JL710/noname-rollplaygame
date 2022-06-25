@@ -19,3 +19,6 @@ class Weapon:
         else:
             return False
 
+    def get_strength(self):
+        return self.__strength
+
