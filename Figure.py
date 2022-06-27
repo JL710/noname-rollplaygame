@@ -1,6 +1,6 @@
 import Weapon, Heroguild
 from random import randint
-from typing import Literal
+from typing import Literal, Union
 
 
 class Figure:
@@ -45,7 +45,12 @@ class Figure:
             self.__lifepoints -= 10
             return False
 
-    def set_attr(self, attr: Literal["fight", "skill", "crafting", "crafting", "intelligence", "weapon"]):
+    def set_attr(self, attr: Union[Literal["fight", "skill", "crafting", "crafting", "intelligence"], Weapon.Weapon]):
+        # error check
+        if type(attr) != Weapon and attr not in ["fight", "skill", "crafting", "crafting", "intelligence"]:
+            raise ValueError(f"{attr} is not a valid attribute.")
+    
+        # do the upgrade
         match attr:
             case "fight":
                 if self.__fight < 16:
@@ -63,6 +68,9 @@ class Figure:
                 if self.__intelligence < 16:
                     self.__intelligence += 1
                     return True
-            case "weapon":
-                pass # TODO: shit here
+            case _:
+                self.__weapon = attr
         return False
+
+    def get_name(self):
+        return self.__name

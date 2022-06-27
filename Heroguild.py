@@ -1,5 +1,6 @@
 from Figure import Figure
-from typing import Literal
+from Weapon import Weapon
+from typing import Literal, Union, List
 
 
 class HeroGuild:
@@ -8,10 +9,17 @@ class HeroGuild:
         self.__heros = [Figure(hero) for hero in heros]
         self.__xp = 0
 
-    def raising(self, attribute: Literal["fight", "skill", "crafting", "crafting", "intelligence", "weapon"]):
+    def raising(self, attribute: List[Union[Literal["fight", "skill", "crafting", "crafting", "intelligence"], Weapon]]):
+        # check error
+        for attr in attribute:
+            if type(attr) != Weapon and attr not in ["fight", "skill", "crafting", "crafting", "intelligence"]:
+                raise ValueError(f"{attr} is not a valid attribute.")
+        
+        # do the upgrade
         if self.__xp >= 100:
-            # TODO: do shit with the hero
-
+            for hero in self.__heros:
+                hero.set_attr(attribute)
+            
             self.__xp -= 100
             return True
         return False
