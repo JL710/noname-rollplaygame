@@ -1,4 +1,3 @@
-from kiwisolver import strength
 
 
 class Weapon:

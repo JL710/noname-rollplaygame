@@ -1,6 +1,7 @@
 from Figure import Figure
 from typing import Literal
 
+
 class HeroGuild:
     def __init__(self, name: str, heros: list):
         self.__name = name
