@@ -45,9 +45,9 @@ class Figure:
             self.__lifepoints -= 10
             return False
 
-    def set_attr(self, attr: Union[Literal["fight", "skill", "crafting", "crafting", "intelligence"], Weapon.Weapon]):
+    def set_attr(self, attr: Union[Literal["fight", "skill", "crafting", "intelligence"], Weapon.Weapon]):
         # error check
-        if type(attr) != Weapon and attr not in ["fight", "skill", "crafting", "crafting", "intelligence"]:
+        if type(attr) != Weapon and attr not in ["fight", "skill", "crafting", "intelligence"]:
             raise ValueError(f"{attr} is not a valid attribute.")
     
         # do the upgrade
